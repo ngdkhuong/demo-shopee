@@ -581,7 +581,7 @@
     border-radius: 2px;
     outline: none;
     font-size: 1.4rem;
-    color: var(--text-color);
+    color: var(--black-color);
     padding: 0 8px;
 }
 
@@ -733,7 +733,7 @@
 .header__search-history-item a {
     text-decoration: none;
     font-size: 1.4rem;
-    color: var(--text-color);
+    color: #1b1b1b;
     line-height: 3.8rem;
     display: block;
 }
@@ -984,8 +984,9 @@
 }
 
 .header__sort-icon {
+    color: var(--text-color);
     position: absolute;
-    top: 4px;
+    top: 3px;
     right: -4px;
     padding: calc(var(--header-sort-bar-height) / 3);
 }
@@ -1219,7 +1220,7 @@
     font-weight: 400;
     line-height: 1.8rem;
     height: 3.6rem;
-    color: var(--text-color);
+    color: var(--black-color);
     margin: 10px 10px 6px;
     overflow: hidden;
     display: block;
@@ -1449,10 +1450,11 @@ i.home-product-item__like-icon {
 }
 
 .footer__apps-link {
-    flex: 1;
     margin-left: 16px;
     text-decoration: none;
     color: transparent;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__apps-download {
